@@ -39,7 +39,7 @@ const Header = () => {
                 <div className="flex items-center gap-2">
                     <h3 className="font-medium text-gray-600 dark:text-gray-400">Category: </h3>
                     <select className="py-2 px-3 bg-transparent border border-gray-700 dark:border-slate-500 pe-9 block w-full rounded-lg text-sm focus:border-violet-700 focus:ring-violet-700 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-300">
-                        <option selected>All</option>
+                        <option>All</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>

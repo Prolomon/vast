@@ -5,7 +5,7 @@ const Avatar = ({change, value}) => {
   // const [pImg, setPImg] = useState(img)
   useEffect(() => {
     const Avatar = document.querySelector('input[name=avatar]')
-    console.log(Avatar);
+    // console.log(Avatar);
     // setPImg(URL.createObjectURL(Avatar.files[0]))
   }, [])
 
